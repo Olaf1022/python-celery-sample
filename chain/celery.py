@@ -1,5 +1,5 @@
 from celery import Celery
-
+import os
 app = Celery(
     'chain',
     broker='redis://localhost',
